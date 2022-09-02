@@ -177,10 +177,19 @@
         </div>
         <div class="write-post-container">
           <div class="post-input-container">
-            <textarea
-              rows="3"
-              placeholder="What's on your mind, John?"
-            ></textarea>
+            <div>
+              <i class="far fa-user"></i>
+
+              <input
+                type="text"
+                id="create_post_input"
+                class="ms-3"
+                placeholder="Create a new post...."
+                aria-label="Username"
+                aria-describedby="basic-addon1"
+              />
+            </div>
+            <hr />
             <div class="add-post-links">
               <a href="#"
                 ><img src="https://i.postimg.cc/QMD2BDXs/live-video.png" />Live
@@ -393,34 +402,21 @@
 
       <div class="right-sidebar">
         <div class="sidebar-title">
-          <h4>Events</h4>
-          <a href="#">See All</a>
+          <h4>You Might Like</h4>
         </div>
         <div class="event">
           <div class="left-event">
-            <h3>18</h3>
-            <span>March</span>
+            <i class="fas fa-user fa-3x"></i>
           </div>
-          <div class="right-event">
-            <h4>Social Media</h4>
-            <p><i class="fas fa-map-marker-alt"></i> Willson Tech Park</p>
-            <a href="#">More Info</a>
+          <div class="right-event mt-1">
+            <h6>Sadfa</h6>
+            <p><i class="fas fa-map-marker-alt"></i>Sfdas3</p>
           </div>
         </div>
-        <div class="event">
-          <div class="left-event">
-            <h3>22</h3>
-            <span>June</span>
-          </div>
-          <div class="right-event">
-            <h4>Mobile Marketing</h4>
-            <p><i class="fas fa-map-marker-alt"></i> Willson Tech Park</p>
-            <a href="#">More Info</a>
-          </div>
-        </div>
+
         <div class="sidebar-title">
-          <h4>Advertisement</h4>
-          <a href="#">close</a>
+          <a href="" class="btn ms-5 me-5" id="ignorebtn">Ignore</a>
+          <a href="#" class="btn text-white col-4" id="folowbtn">Follow</a>
         </div>
         <img
           src="https://i.postimg.cc/CLXYx9BL/advertisement.png"
