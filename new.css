@@ -36,11 +36,8 @@ nav{
 
 }
 
-.cicon
-{
-    margin-top: -60px;
-    font-size: 13px;
-}
+
+
 .logo{
     width: 40px;
     height: 40px;
@@ -215,6 +212,17 @@ nav{
     color: #1876f2;
     font-size: 12px;
 
+}
+.postc
+{
+    width: 20rem;
+    margin-left: 1rem;
+    margin-right: 1rem;
+    margin-top: 1rem;
+}
+.postc small
+{
+    margin-left: 1rem;
 }
 .event{
     display: flex;
