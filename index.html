@@ -17,6 +17,13 @@
       src="https://use.fontawesome.com/releases/v5.15.4/js/all.js"
       data-auto-replace-svg="nest"
     ></script>
+    <style>
+      .mycolor {
+        background: #e4dede;
+        height: 10px;
+        width: 100%;
+      }
+    </style>
   </head>
   <body>
     <nav>
@@ -112,43 +119,39 @@
     <div class="container">
       <div class="left-sidebar">
         <div class="imp-links">
+          <h5 class="mt-4 fw-bold mb-4">Explore</h5>
           <a href="#"
-            ><img src="https://i.postimg.cc/RCj4MjnC/news.png" />Latest News</a
+            ><img src="https://i.postimg.cc/RCj4MjnC/news.png" />Save Post</a
           >
           <a href="#"
-            ><img src="https://i.postimg.cc/MpBwMtV0/friends.png" />Friendss</a
+            ><img src="https://i.postimg.cc/MpBwMtV0/friends.png" />People</a
           >
           <a href="#"
             ><img src="https://i.postimg.cc/44FRWj1b/group.png" />Group</a
           >
           <a href="#"
-            ><img
-              src="https://i.postimg.cc/0jh39RtT/marketplace.png"
-            />Marketplace</a
+            ><img src="https://i.postimg.cc/0jh39RtT/marketplace.png" />Pages</a
           >
           <a href="#"
-            ><img src="https://i.postimg.cc/VsXHCTVk/watch.png" />Watch</a
+            ><img src="https://i.postimg.cc/VsXHCTVk/watch.png" />Event</a
           >
-          <a href="#">See More</a>
         </div>
+        <div class="mycolor"></div>
         <div class="shortcut-link">
-          <p>Your Shortcuts</p>
-          <a href="#"
-            ><img src="https://i.postimg.cc/3JHVf7vG/shortcut-1.png" />Web
-            Developers</a
-          >
-          <a href="#"
-            ><img src="https://i.postimg.cc/rFCbvb1P/shortcut-2.png" />Web
-            Design course</a
-          >
-          <a href="#"
-            ><img src="https://i.postimg.cc/0yk3xfZ2/shortcut-3.png" />Full
-            Strack Development</a
-          >
-          <a href="#"
-            ><img src="https://i.postimg.cc/Z5wQqdDP/shortcut-4.png" />Website
-            Experts</a
-          >
+          <h6 class="fw-bold mt-4 mb-3">Download App</h6>
+          <img src="appstoremain.png" class="w-75" alt="" />
+        </div>
+        <div class="mycolor mt-4"></div>
+        <div class="shortcut-link">
+          <h6 class="fw-bold mt-4 mb-3">Suggested People</h6>
+          <div class="row">
+            <span>
+              <i class="far fa-user me-3"></i> Sadek Hossain
+              <span class="btn btn-dark btn-sm ms-5">
+                Add <i class="fas fa-plus"></i
+              ></span>
+            </span>
+          </div>
         </div>
       </div>
 
@@ -158,21 +161,9 @@
             <img src="https://i.postimg.cc/TPh453Zz/upload.png" />
             <p>Your Story</p>
           </div>
-          <div class="story story2">
-            <img src="https://i.postimg.cc/XNPtfdVs/member-1.png" />
-            <p>Alison</p>
-          </div>
-          <div class="story story3">
-            <img src="https://i.postimg.cc/4NhqByys/member-2.png" />
-            <p>Jackson</p>
-          </div>
-          <div class="story story4">
-            <img src="https://i.postimg.cc/FH5qqvkc/member-3.png" />
-            <p>Samona</p>
-          </div>
-          <div class="story story5">
-            <img src="https://i.postimg.cc/Sx65bPcP/member-4.png" />
-            <p>John Doe</p>
+          <div class="story story2 ms-5">
+            <img src="download.png" />
+            <p>Adnan Chowdhury</p>
           </div>
         </div>
         <div class="write-post-container">
@@ -191,20 +182,9 @@
             </div>
             <hr />
             <div class="add-post-links">
-              <a href="#"
-                ><img src="https://i.postimg.cc/QMD2BDXs/live-video.png" />Live
-                Video</a
-              >
-              <a href="#"
-                ><img
-                  src="https://i.postimg.cc/6pKKZn0D/photo.png"
-                />Photo/Video</a
-              >
-              <a href="#"
-                ><img
-                  src="https://i.postimg.cc/Pf6TBCdD/feeling.png"
-                />Feling/Activity</a
-              >
+              <a href="#"><i class="fas fa-tint me-2"></i>Background</a>
+              <a href="#"><i class="fas fa-camera me-2"></i>Photo/Video</a>
+              <a href="#"><i class="fas fa-smile me-2"></i>Feling/Activity</a>
             </div>
           </div>
         </div>
@@ -213,36 +193,77 @@
             <div class="user-profile">
               <img src="https://i.postimg.cc/cHg22LhR/profile-pic.png" />
               <div>
-                <p>John Nicholson</p>
-                <span>June 24 2021, 13:40 pm</span>
+                <p>Adnan Chowdhury</p>
+                <span>1 hour ago <i class="fas fa-globe"></i></span>
               </div>
             </div>
             <a href="#"><i class="fas fa-ellipsis-v"></i></a>
           </dic>
-          <p class="post-text">
-            Subscribe <span>@Vkive Tutorials</span> Youtube Channel to watch
-            more videos on website development and UI desings.
-            <a href="#">#VkiveTutorials</a> <a href="#">#YoutubeChannel</a>
-          </p>
-          <img
-            src="https://i.postimg.cc/9fjhGTY6/feed-image-1.png"
-            class="post-img"
-          />
-          <div class="post-row">
+          <p class="post-text">Your favourite game</p>
+          <div>
+            <div class="row">
+              <div class="col-lg-1 col-sm-1">
+                <input type="checkbox" class="mt-4" />
+              </div>
+              <div
+                class="col-lg-6 col-sm-6"
+                style="background: #e4dede; padding: 2px"
+              >
+                <small class="d-block p-1 text-dark">Added By You</small>
+                <small class="d-block p-1 text-dark">Football</small>
+              </div>
+              <div class="col-lg-3 col-sm-3 mt-2 ms-5">
+                <i class="fas fa-user mt-2"></i>
+                <i class="fas fa-times ms-5"></i>
+              </div>
+            </div>
+            <div class="row mt-3">
+              <div class="col-lg-1 col-sm-1">
+                <input type="checkbox" class="mt-4" />
+              </div>
+              <div
+                class="col-lg-6 col-sm-6"
+                style="background: #e4dede; padding: 2px"
+              >
+                <small class="d-block p-1 text-dark">Added By You</small>
+                <small class="d-block p-1 text-dark">Football</small>
+              </div>
+              <div class="col-lg-3 col-sm-3 mt-2 ms-5">
+                <i class="fas fa-user mt-2" style="visibility: hidden"></i>
+                <i class="fas fa-times ms-5"></i>
+              </div>
+            </div>
+            <div class="row mt-3">
+              <div class="col-lg-1 col-sm-1">
+                <input type="checkbox" class="mt-4" />
+              </div>
+              <div
+                class="col-lg-6 col-sm-6"
+                style="background: #e4dede; padding: 2px"
+              >
+                <small class="d-block p-1 text-dark">Added By You</small>
+                <small class="d-block p-1 text-dark">Football</small>
+              </div>
+              <div class="col-lg-3 col-sm-3 mt-2 ms-5">
+                <i class="fas fa-user mt-2" style="visibility: hidden"></i>
+                <i class="fas fa-times ms-5"></i>
+              </div>
+            </div>
+          </div>
+
+          <div class="post-row ms-5 mt-5">
             <div class="activity-icons">
               <div>
-                <img src="https://i.postimg.cc/pLKNXrMq/like-blue.png" />120
+                <img src="https://i.postimg.cc/pLKNXrMq/like-blue.png" />Like
               </div>
               <div>
-                <img src="https://i.postimg.cc/rmjMymWv/comments.png" />45
+                <img src="https://i.postimg.cc/rmjMymWv/comments.png" />Comment
               </div>
-              <div><img src="https://i.postimg.cc/T2bBchpG/share.png" />20</div>
+              <div>
+                <img src="https://i.postimg.cc/T2bBchpG/share.png" />Share
+              </div>
             </div>
-            <div class="post-porfile-icon">
-              <img src="https://i.postimg.cc/cHg22LhR/profile-pic.png" /><i
-                class="fas fa-caret-down"
-              ></i>
-            </div>
+            <div class="post-porfile-icon cicon" c>1 comment</div>
           </div>
         </div>
         <div class="post-container">
@@ -418,37 +439,23 @@
           <a href="" class="btn ms-5 me-5" id="ignorebtn">Ignore</a>
           <a href="#" class="btn text-white col-4" id="folowbtn">Follow</a>
         </div>
-        <img
-          src="https://i.postimg.cc/CLXYx9BL/advertisement.png"
-          class="siderbar-ads"
-        />
-        <div class="sidebar-title">
-          <h4>Conversation</h4>
-          <a href="#">Hide Chat</a>
-        </div>
-        <div class="online-list">
-          <div class="online">
-            <img src="https://i.postimg.cc/XNPtfdVs/member-1.png" />
+        <div class="mycolor"></div>
+        <div class="mt-5">
+          <div class="sidebar-title mt-4">
+            <h4>Your Friends</h4>
           </div>
-          <p>Alison Mina</p>
-        </div>
-        <div class="online-list">
-          <div class="online">
-            <img src="https://i.postimg.cc/4NhqByys/member-2.png" />
+          <div class="online-list">
+            <div class="online">
+              <i class="fas fa-user fa-1x border p-2"></i>
+            </div>
+            <p class="mt-2">Admin</p>
           </div>
-          <p>Jackson Aston</p>
-        </div>
-        <div class="online-list">
-          <div class="online">
-            <img src="https://i.postimg.cc/FH5qqvkc/member-3.png" />
+          <div class="online-list">
+            <div class="online">
+              <img src="https://i.postimg.cc/4NhqByys/member-2.png" />
+            </div>
+            <p>Kazi Musharraf Shisir</p>
           </div>
-          <p>Samona Rose</p>
-        </div>
-        <div class="online-list">
-          <div class="online">
-            <img src="https://i.postimg.cc/Sx65bPcP/member-4.png" />
-          </div>
-          <p>Mike Pérez</p>
         </div>
       </div>
     </div>
