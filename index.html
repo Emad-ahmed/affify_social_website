@@ -12,7 +12,7 @@
       integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx"
       crossorigin="anonymous"
     />
-
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
     <script
       src="https://use.fontawesome.com/releases/v5.15.4/js/all.js"
       data-auto-replace-svg="nest"
@@ -119,9 +119,64 @@
         </div>
       </div>
     </nav>
+    <div class="navbox mt-3">
+      <div class="navicon1">
+        <i class="fas fa-bars iconnav" id="leftclick"></i>
+      </div>
+      <div class="search-box ms-5">
+        <img src="https://i.postimg.cc/SKtHgM6Q/search.png" />
+        <input type="text" placeholder="Search" />
+      </div>
+      <ul class="pt-3 mainanav navbar nav">
+        <li><i class="fas fa-home ms-3"></i></li>
+        <li><i class="fas fa-users ms-3"></i></li>
+        <li><i class="fas fa-bell ms-3"></i></li>
+        <li><i class="fas fa-comment-dots ms-3"></i></li>
+      </ul>
+      <div class="navicon2">
+        <i class="fas fa-bars iconnav" id="rightclick"></i>
+      </div>
+    </div>
+    <div class="right--main-sidebar" id="showright">
+      <div class="sidebar-title">
+        <h4>You Might Like</h4>
+      </div>
+      <div class="event">
+        <div class="left-event">
+          <i class="fas fa-user fa-3x"></i>
+        </div>
+        <div class="right-event mt-1">
+          <h6>Sadfa</h6>
+          <p><i class="fas fa-map-marker-alt"></i>Sfdas3</p>
+        </div>
+      </div>
 
+      <div class="sidebar-title">
+        <a href="" class="btn ms-5 me-5" id="ignorebtn">Ignore</a>
+        <a href="#" class="btn text-white col-4" id="folowbtn">Follow</a>
+      </div>
+      <div class="mycolor"></div>
+      <div class="mt-5">
+        <div class="sidebar-title mt-4">
+          <h4>Your Friends</h4>
+        </div>
+        <div class="online-list">
+          <div class="online">
+            <i class="fas fa-user fa-1x border p-2"></i>
+          </div>
+          <p class="mt-2">Admin</p>
+        </div>
+        <div class="online-list">
+          <div class="online">
+            <img src="https://i.postimg.cc/4NhqByys/member-2.png" />
+          </div>
+          <p>Kazi Musharraf Shisir</p>
+        </div>
+      </div>
+    </div>
+  </div>
     <div class="container">
-      <div class="left-sidebar">
+      <div class="left-sidebar" id="showleft">
         <div class="imp-links">
           <h5 class="mt-2 fw-bold mb-4">Explore</h5>
           <a href="#"
@@ -148,7 +203,7 @@
         <div class="mycolor mt-4"></div>
         <div class="shortcut-link">
           <h6 class="fw-bold mt-2 mb-3">Suggested People</h6>
-          <div class="row">
+          <div class="row sadekf">
             <span>
               <i class="far fa-user me-3"></i> Sadek Hossain
               <span class="btn btn-dark btn-sm ms-5">
@@ -1297,5 +1352,20 @@
       <h6>Keep Checking Back later referesh to get more feeds!</h6>
     </div>
     <script src="main.js"></script>
+
+    <script>
+      $(document).ready(function () {
+        $("#leftclick").click(function () {
+          $("#showleft").toggle();
+        });
+      });
+    </script>
+    <script>
+      $(document).ready(function () {
+        $("#rightclick").click(function () {
+          $("#showright").toggle();
+        });
+      });
+    </script>
   </body>
 </html>

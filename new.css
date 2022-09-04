@@ -36,6 +36,23 @@ nav{
     
 
 }
+.right--main-sidebar
+{
+    display: none;
+}
+.navbox
+{
+    display: none;
+    
+    background: #19222d;
+   
+    width: 100%;
+    justify-content: space-between;
+}
+
+.navbox ul li i{
+    color: white !important;
+}
 
 .cicon
 {
@@ -44,8 +61,8 @@ nav{
 }
 
 .logo{
-    width: 40px;
-    height: 40px;
+    max-width: 40px;
+    max-height: 40px;
     margin-right: 45px;
 
 }
@@ -77,7 +94,8 @@ nav{
 }
 .search-box{
     background: #efefef;
-    max-width: 350px;
+    max-width: 400px;
+    height: 35px;
     border-radius: 20px;
     display: flex;
     align-items: center;
@@ -640,6 +658,7 @@ nav{
     overflow: hidden;
     top: 108%;
     right: 5%;
+    z-index: 100;
     max-height: 0;
     transition: max-height 0.3s;
 
@@ -918,6 +937,82 @@ nav{
     .right-sidebar{
         display: none;
     }
+
+   .right--main-sidebar
+
+   {
+    display: none;
+   }
+   #showright
+   {
+    position: fixed;
+    top: 6.2rem;
+    border: 1px solid black;
+    box-shadow: 1px 1px 1px 1px;
+    left: 0;
+    background: white;
+    z-index: 10000;
+    max-width: 30rem;
+    padding: 1rem;
+   }
+
+    .left-sidebar
+    {
+        position: fixed;
+        background: white;
+        z-index: 10000;
+        left: 0;
+        top: 6rem;
+        max-width: 30rem;
+    }
+    .postfound
+{
+    width: 100%;
+    margin: auto;
+}
+
+
+    .left-sidebar a{
+        padding-left: 2rem;
+    }
+    .left-sidebar h5{
+        padding-left: 2rem;
+    }
+    .left-sidebar h6{
+        padding-left: 2rem;
+    }
+    .left-sidebar
+    {
+        border: 1px solid black;
+        box-shadow: 1px 1px 1px 1px;
+    }
+    .sadekf
+    {
+        padding-left: 2rem;
+    }
+    .sadekf
+    {
+        height: 4rem;
+    }
+    .iconnav
+    {
+        color: white !important;
+        margin-top: 1rem;
+    }
+    .navicon1{
+        margin-top: 1rem;
+        margin-left: 2rem;
+    }
+    .navicon2{
+        margin-top: 1rem;
+        margin-right: 2rem;
+    }
+
+    .story-gallery
+    {
+        margin-top: 3rem;
+    }
+    
     .left-sidebar{
         display: none;
 
@@ -930,6 +1025,24 @@ nav{
         position: absolute;
         width: 100%;
         left: 25rem;
+    }
+    .navbox
+    {
+        display: flex;
+        position: fixed;
+        z-index: 1;
+        top: 2.2rem;
+    }
+    .navbox .search-box
+    {
+        display: flex;
+        width: 15rem;
+        height: 35px;
+        margin-top: 6px;
+    }
+    
+    .navbox .search-box input[type=text]{
+        height: 5px;
     }
     nav{
         flex-wrap: wrap;
@@ -1046,3 +1159,39 @@ nav{
   .dropdown:hover .dropdown-content {
     display: block;
   }
+
+
+
+
+
+@media (max-width: 700px){
+    .nav-user-icon
+    {
+        left: 20rem;
+    }
+    
+
+}
+
+@media (max-width: 700px){
+    .navbox .search-box
+    {
+        display: none;
+    }
+    
+
+}
+
+@media (max-width: 480px){
+    
+    .nav-right .nav-user-icon
+
+    {
+        left: 10rem;
+    }
+
+}
+
+
+/* Large devices (laptops/desktops, 992px and up) */
+
