@@ -88,10 +88,8 @@ nav{
     border-radius: 50%;
     cursor: pointer;
 }
-.nav-user-icon {
-    margin-left: 30px;
 
-}
+
 .search-box{
     background: #efefef;
     max-width: 400px;
@@ -962,12 +960,13 @@ nav{
         z-index: 10000;
         left: 0;
         top: 6rem;
-        width: 20rem;
+        width: 30rem;
     }
     .postfound
 {
-    width: 90%;
-    margin: auto;
+    width: 85%;
+    margin-left: 0;
+    padding: 1rem;
 }
 
 
@@ -1028,7 +1027,7 @@ nav{
     .navbox
     {
         display: flex;
-        position: fixed;
+        position: absolute;
         z-index: 1;
         top: 2.2rem;
         
@@ -1178,19 +1177,32 @@ nav{
     {
         display: none;
     }
-    
-
+    .activity-icons 
+    {
+        display: flex;
+        
+    }
+    .activity-icons div
+    {
+        font-size: 14px;
+        margin-left: 0.4rem !important;
+        margin-right: 0.4rem !important;
+    }
 }
 
 @media (max-width: 480px){
-    
+    body
+    {
+        box-sizing: border-box;
+        width: 100%;
+    }
     .nav-right .nav-user-icon
 
     {
         left: 10rem;
     }
     .write-post-container{
-        width: 90%;
+        width: 87%;
         background: var(--bg-color);
         border-radius: 6px;
         padding: 20px;
@@ -1201,9 +1213,13 @@ nav{
         width: 10rem;
     }
     .post-container{
-        width: 90%;
+        width: 87%;
        
     
+    }
+    .main-content
+    {
+        width: 90%;
     }
     #create_post_input
 {
@@ -1242,7 +1258,8 @@ nav{
     border: none;
     background: rgb(235, 233, 233);
 }
-
+.nav-user-icon
+{width: 15rem;}
 
 }
 
@@ -1276,7 +1293,42 @@ nav{
     max-width: 22rem;
     
    }
+   .myimgpost img
+{
+    width: 5rem;
+    height: 5rem;
+    object-fit: cover;
+}
+.commentbox input
+{
    
+    width: 6rem;
+    
+}
+
+
+.commentbox input[type = text]
+{
+    font-size: 0.8rem;
+}
+.activity-icons div
+    {
+        font-size: 10px;
+        margin-left: 4px !important;
+        margin-right: 1px !important;
+    }
+    .fa-comment
+    {
+        display: none;
+    }
+    .write-post-container{
+        width: 90%;
+    }
+    .post-container{
+        width: 90%;
+       
+    
+    }
 }
 
 
