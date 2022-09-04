@@ -77,7 +77,7 @@ nav{
 }
 .search-box{
     background: #efefef;
-    width: 350px;
+    max-width: 350px;
     border-radius: 20px;
     display: flex;
     align-items: center;
@@ -273,12 +273,24 @@ nav{
 }
 .like_comment a{
     text-decoration: none;
+    color: black;
 }
 
 .like_comment
 {
     display: flex;
     justify-content: space-between;
+    margin-top: 2rem;
+    margin-left: 1rem;
+}
+
+.post-text{
+    color: black !important;
+}
+
+.user-profile > div > p{
+    color: black !important;
+    font-weight: 600;
 }
 
 .imp-links a:last-child{
@@ -846,6 +858,16 @@ nav{
     justify-content: space-between;
 
 }
+
+.mainanav li i
+{
+    font-size: 20px;
+}
+
+.mainanav li i:hover
+{
+    border-bottom: 1px solid grey;
+}
 .title-box a{
     text-decoration: none;
     color: #1876f2;
@@ -899,6 +921,15 @@ nav{
     .left-sidebar{
         display: none;
 
+    }
+    .mainanav{
+        display: none;
+    }
+    .nav-user-icon
+    {
+        position: absolute;
+        width: 100%;
+        left: 25rem;
     }
     nav{
         flex-wrap: wrap;
