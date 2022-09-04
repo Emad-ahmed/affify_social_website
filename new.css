@@ -964,9 +964,10 @@ nav{
     }
     .postfound
 {
-    width: 85%;
+    width: 95%;
     margin-left: 0;
     padding: 1rem;
+    margin: auto;
 }
 
 
@@ -1188,6 +1189,81 @@ nav{
         margin-left: 0.4rem !important;
         margin-right: 0.4rem !important;
     }
+    .nav-right .nav-user-icon
+
+    {
+        left: 14rem;
+    }
+    .write-post-container{
+        width: 95%;
+        background: var(--bg-color);
+        border-radius: 6px;
+        padding: 20px;
+        color: #626262;
+        margin: auto;
+    }
+    .write-post-container input{
+        width: 14rem;
+        
+    }
+    .postfound
+{
+    width: 95%;
+    margin-left: 0;
+    padding: 1rem;
+    margin: auto;
+}
+    .post-container{
+        width: 95%;
+        margin: auto;
+       
+    
+    }
+    .main-content
+    {
+        width: 95%;
+        margin: auto;
+    }
+    #create_post_input
+{
+    border-radius: 100px !important;
+    width: 16rem;
+    border: none;
+    background: rgb(248, 235, 235);
+    padding: 0.5rem;
+}
+.online::after{
+    content: '';
+    width: 7px;
+    height: 7px;
+    border: 2px solid #fff;
+    border-radius: 50%;
+    background: #41db51;
+    position: absolute;
+    top: 8px;
+    left: 12rem;
+
+}
+.myimgpost img
+{
+    width: 7rem;
+    height: 7rem;
+    object-fit: cover;
+}
+
+.commentbox input
+{
+    border-radius: 20px;
+    padding-left: 10px;
+    font-size: 12px;
+    padding: 7px;
+    width: 10rem;
+    border: none;
+    background: rgb(235, 233, 233);
+}
+.nav-user-icon
+{width: 17rem;}
+
 }
 
 @media (max-width: 480px){
@@ -1202,26 +1278,33 @@ nav{
         left: 10rem;
     }
     .write-post-container{
-        width: 87%;
+        width: 95%;
         background: var(--bg-color);
         border-radius: 6px;
         padding: 20px;
         color: #626262;
         margin: auto;
     }
+    .postfound
+{
+    width: 95%;
+    margin-left: 0;
+    padding: 1rem;
+    margin: auto;
+}
     .write-post-container input{
         width: 10rem;
         
     }
     .post-container{
-        width: 87%;
+        width: 95%;
         margin: auto;
        
     
     }
     .main-content
     {
-        width: 90%;
+        width: 95%;
         margin: auto;
     }
     #create_post_input
@@ -1284,6 +1367,13 @@ nav{
         margin-right: 0px;
     
     }
+    .postfound
+{
+    width: 95%;
+    margin-left: 0;
+    padding: 1rem;
+    margin: auto;
+}
     .nav-left, .nav-right{
         
         margin-left: 1rem;
@@ -1329,8 +1419,8 @@ nav{
         margin: auto;
     }
     .post-container{
-        width: 90%;
-       
+        width: 95%;
+        margin: auto;
     
     }
 }
@@ -1345,7 +1435,7 @@ nav{
         left: 5rem;
     }
     .write-post-container{
-        width: 87%;
+        width: 95%;
         background: var(--bg-color);
         border-radius: 6px;
         padding: 20px;
@@ -1357,13 +1447,13 @@ nav{
         width: 7rem;
     }
     .post-container{
-        width: 87%;
+        width: 95%;
         margin: auto;
     
     }
     .main-content
     {
-        width: 90%;
+        width: 95%;
         margin: auto;
     }
     #create_post_input
