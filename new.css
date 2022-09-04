@@ -939,7 +939,6 @@ nav{
     }
 
    .right--main-sidebar
-
    {
     display: none;
    }
@@ -952,7 +951,7 @@ nav{
     left: 0;
     background: white;
     z-index: 10000;
-    max-width: 30rem;
+    width: 30rem;
     padding: 1rem;
    }
 
@@ -963,7 +962,7 @@ nav{
         z-index: 10000;
         left: 0;
         top: 6rem;
-        max-width: 30rem;
+        width: 30rem;
     }
     .postfound
 {
