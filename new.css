@@ -1211,15 +1211,18 @@ nav{
     }
     .write-post-container input{
         width: 10rem;
+        margin: auto;
     }
     .post-container{
         width: 87%;
+        margin: auto;
        
     
     }
     .main-content
     {
         width: 90%;
+        margin: auto;
     }
     #create_post_input
 {
@@ -1323,6 +1326,7 @@ nav{
     }
     .write-post-container{
         width: 90%;
+        margin: auto;
     }
     .post-container{
         width: 90%;
@@ -1346,6 +1350,7 @@ nav{
         border-radius: 6px;
         padding: 20px;
         color: #626262;
+        margin: auto;
     
     }
     .write-post-container input{
@@ -1353,12 +1358,13 @@ nav{
     }
     .post-container{
         width: 87%;
-       
+        margin: auto;
     
     }
     .main-content
     {
         width: 90%;
+        margin: auto;
     }
     #create_post_input
 {
