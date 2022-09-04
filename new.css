@@ -266,6 +266,21 @@ nav{
 }
 
 
+.like_comment img
+{
+    margin-right: 10px;
+    width: 17px;
+}
+.like_comment a{
+    text-decoration: none;
+}
+
+.like_comment
+{
+    display: flex;
+    justify-content: space-between;
+}
+
 .imp-links a:last-child{
     color:#1876f2;
 
