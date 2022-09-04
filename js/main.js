@@ -28,7 +28,7 @@ if(localStorage.getItem("theme") == "light"){
 else if(localStorage.getItem("theme") == "dark"){
     darkBtn.classList.add("dark-btn-on");
     document.body.classList.add("dark-theme");
-
+    document.getElementsByClassName("post-text").style.color = "white !important";
 }
 else{
     localStorage.setItem("theme","light");

@@ -473,11 +473,11 @@ nav{
 }
 .story1{
     
-    background-image: linear-gradient(transparent,rgba(0,0,0,0.5)), url(download.png);
+    background-image: linear-gradient(transparent,rgba(0,0,0,0.5)), url(../download.png);
 }
 .story2{
     
-    background-image: linear-gradient(transparent,rgba(0,0,0,0.5)), url(nature.jpg);
+    background-image: linear-gradient(transparent,rgba(0,0,0,0.5)), url(../nature.jpg);
 }
 .story3{
     
@@ -1263,7 +1263,7 @@ nav{
 
 }
 
-@media (max-width: 370px){
+@media (max-width: 390px){
     
     .nav-right .nav-user-icon
 
@@ -1331,6 +1331,75 @@ nav{
     }
 }
 
+
+@media (max-width: 390px){
+    
+    
+    .nav-right .nav-user-icon
+
+    {
+        left: 5rem;
+    }
+    .write-post-container{
+        width: 87%;
+        background: var(--bg-color);
+        border-radius: 6px;
+        padding: 20px;
+        color: #626262;
+    
+    }
+    .write-post-container input{
+        width: 7rem;
+    }
+    .post-container{
+        width: 87%;
+       
+    
+    }
+    .main-content
+    {
+        width: 90%;
+    }
+    #create_post_input
+{
+    border-radius: 100px !important;
+    width: 16rem;
+    border: none;
+    background: rgb(248, 235, 235);
+    padding: 0.5rem;
+}
+.online::after{
+    content: '';
+    width: 7px;
+    height: 7px;
+    border: 2px solid #fff;
+    border-radius: 50%;
+    background: #41db51;
+    position: absolute;
+    top: 8px;
+    left: 12rem;
+
+}
+.myimgpost img
+{
+    width: 6rem;
+    height: 6rem;
+    object-fit: cover;
+}
+
+.commentbox input
+{
+    border-radius: 20px;
+    padding-left: 10px;
+    font-size: 12px;
+    padding: 7px;
+    width: 10rem;
+    border: none;
+    background: rgb(235, 233, 233);
+}
+.nav-user-icon
+{width: 15rem;}
+}
 
 /* Large devices (laptops/desktops, 992px and up) */
 
