@@ -40,6 +40,7 @@ nav{
 {
     display: none;
 }
+
 .navbox
 {
     display: none;
@@ -1183,6 +1184,10 @@ nav{
         display: flex;
         
     }
+    .left-sidebar
+    {
+        width: 26rem;
+    }
     .activity-icons div
     {
         font-size: 14px;
@@ -1277,6 +1282,10 @@ nav{
     {
         left: 10rem;
     }
+    .left-sidebar
+    {
+        width: 26rem;
+    }
     .write-post-container{
         width: 95%;
         background: var(--bg-color);
@@ -1361,6 +1370,10 @@ nav{
     .nav-right .nav-user-icon i{
         font-size: 15px;
     }
+    .left-sidebar
+    {
+        width: 26rem;
+    }
     .logo{
         max-width: 40px;
         max-height: 40px;
@@ -1442,6 +1455,10 @@ nav{
         color: #626262;
         margin: auto;
     
+    }
+    .left-sidebar
+    {
+        width: 26rem;
     }
     .write-post-container input{
         width: 7rem;
