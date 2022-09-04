@@ -1207,11 +1207,11 @@ nav{
         border-radius: 6px;
         padding: 20px;
         color: #626262;
-    
+        margin: auto;
     }
     .write-post-container input{
         width: 10rem;
-        margin: auto;
+        
     }
     .post-container{
         width: 87%;
